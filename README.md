@@ -12,3 +12,10 @@ A gitignore file includes java,maven and eclipse gitignore files.
 # code formatter
 You should use this code formatter before contribute
  - https://github.com/keramiozsoy/petshop/blob/master/codeFormatter/codeFormatterEclipseKeramiOzsoy.xml
+
+
+
+# how can i create this project ?
+```
+mvn archetype:generate -DgroupId=com.keramiozsoy.petshop -DartifactId=petshop -Dversion=0.0.1-SNAPSHOT -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+```
