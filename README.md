@@ -23,8 +23,13 @@ mvn archetype:generate -DgroupId=com.keramiozsoy.petshop -DartifactId=petshop -D
 ## Linux
 ```
 git clone https://github.com/keramiozsoy/petshop.git
+cd petshop/petshop
+ls -l
+src pom.xml
+
 ```
 ## if you want to use with eclipse after that above command use
+This command use in pom.xml directory 
 ```
 mvn eclipse:eclipse
 ```
