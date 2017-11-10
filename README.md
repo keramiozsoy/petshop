@@ -36,5 +36,5 @@ mvn eclipse:eclipse
 ```
 ## How to open this project with eclipse ?
 ```
-Eclipse  >  Import...  >  Maven  >  Existing Maven Projects  >  Browser > Select petshop project  > Finish
+Eclipse  >  File  > Import...  > General > Existing Project into Workspace  >  Browser > Select `petshop` project  > Finish
 ```
