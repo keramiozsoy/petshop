@@ -14,11 +14,12 @@ You should use this code formatter before contribute
  - https://github.com/keramiozsoy/petshop/blob/master/codeFormatter/codeFormatterEclipseKeramiOzsoy.xml
 
 
-
-# how can i create this project ?
+# Development Setup
+## how to begin everything this project ?
 ```
 mvn archetype:generate -DgroupId=com.keramiozsoy.petshop -DartifactId=petshop -Dversion=0.0.1-SNAPSHOT -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
 ```
+
 # if you want to use with eclipse after that above command use
 ```
 mvn eclipse:eclipse
