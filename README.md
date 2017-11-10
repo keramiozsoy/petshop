@@ -20,7 +20,15 @@ You should use this code formatter before contribute
 mvn archetype:generate -DgroupId=com.keramiozsoy.petshop -DartifactId=petshop -Dversion=0.0.1-SNAPSHOT -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
 ```
 
-# if you want to use with eclipse after that above command use
+## Linux
+```
+git clone https://github.com/keramiozsoy/petshop.git
+```
+## if you want to use with eclipse after that above command use
 ```
 mvn eclipse:eclipse
+```
+## How to open this project with eclipse ?
+```
+Eclipse  >  Import...  >  Maven  >  Existing Maven Projects  >  Browser > Select petshop project  > Finish
 ```
