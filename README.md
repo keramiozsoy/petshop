@@ -34,7 +34,7 @@ src pom.xml
 ```
 mvn eclipse:eclipse
 ```
-## How to open this project with eclipse ?
+## how to open this project with eclipse ?
 ```
 Eclipse  >  File  > Import...  > General > Existing Project into Workspace  >  Browser > Select petshop project  > Finish
 ```
