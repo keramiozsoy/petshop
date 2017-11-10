@@ -1,6 +1,10 @@
 # petshop
 a blueprint for petshop
 
+# requirement environments
+- Apache Maven    3.0.5
+- Java JDK        1.7.80
+- Eclipse Kepler  4.2
 
 # gitignore file
 A gitignore file includes java,maven and eclipse gitignore files.
