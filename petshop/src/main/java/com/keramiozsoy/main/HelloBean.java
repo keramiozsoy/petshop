@@ -14,8 +14,8 @@ public class HelloBean implements Serializable {
   private String input;
   private String output;
 
-  public void submit() {
-    output = "You submitted: " + input;
+  public String submit() {
+    return output = "You submitted: " + input;
   }
 
   public String getInput() {
