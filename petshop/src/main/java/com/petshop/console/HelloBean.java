@@ -1,4 +1,4 @@
-package com.keramiozsoy.main;
+package com.petshop.console;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
