@@ -4,7 +4,7 @@ a blueprint for petshop
 # requirement environments
 - Apache Maven    3.0.5
 - Java JDK        1.7.80
-- Eclipse Kepler  4.2
+- Eclipse or Netbeans
 
 
 # Development Setup
@@ -21,12 +21,7 @@ ls -l
 src pom.xml
 
 ```
-## if you want to use with eclipse after that above command use
-#### This command use in ` pom.xml ` directory
- 
-```
-mvn eclipse:eclipse
-```
+## if you want to use eclipse
 #### how to open this project with eclipse ?
 ```
 Eclipse  >  File  > Import...  > General > Existing Project into Workspace  >  Browser > Select petshop project  > Finish
