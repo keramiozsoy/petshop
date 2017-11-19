@@ -7,7 +7,7 @@ a blueprint for petshop
 - Eclipse (Kepler) or Netbeans
 # it has used 
 - Apache Derby (Embedded DB)
-- Service Layer Design Pattern (http://java-design-patterns.com/patterns/service-layer/ Thank you :) )
+- Service Layer Design Pattern ( Thank you :sunglasses: http://java-design-patterns.com/patterns/service-layer  )
 
 # Development Setup
 ## how to begin everything this project ?
