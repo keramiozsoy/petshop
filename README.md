@@ -4,8 +4,10 @@ a blueprint for petshop
 # requirement environments
 - Apache Maven    3.0.5
 - Java JDK        1.7.80
-- Eclipse or Netbeans
-
+- Eclipse (Kepler) or Netbeans
+# it has used 
+- Apache Derby (Embedded DB)
+- Service Layer Desing Pattern (http://java-design-patterns.com/patterns/service-layer/ Thank you :) )
 
 # Development Setup
 ## how to begin everything this project ?
