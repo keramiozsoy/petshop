@@ -6,7 +6,7 @@ a blueprint for petshop
 - Java JDK        1.7.80
 - Eclipse (Kepler) or Netbeans
 # it has used 
-- Apache Derby (Embedded DB)
+- Apache Derby (Embedded DB https://db.apache.org/derby)
 - Service Layer Design Pattern ( Thank you :sunglasses: http://java-design-patterns.com/patterns/service-layer  )
 
 # Development Setup
