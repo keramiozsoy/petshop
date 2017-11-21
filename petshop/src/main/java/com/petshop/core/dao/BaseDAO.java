@@ -1,7 +1,4 @@
-/**
- * 
- */
-package com.petshop.core.domain.animal;
+package com.petshop.core.dao;
 
 import com.petshop.core.domain.AbstractBaseEntity;
 
@@ -10,6 +7,6 @@ import com.petshop.core.domain.AbstractBaseEntity;
  * @author ozsoy.kerami
  * 
  */
-public class Animal extends AbstractBaseEntity {
+public interface BaseDAO<T extends AbstractBaseEntity> {
 
 }
