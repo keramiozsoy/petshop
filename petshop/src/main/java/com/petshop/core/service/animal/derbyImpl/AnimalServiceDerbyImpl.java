@@ -1,4 +1,4 @@
-package com.petshop.core.service.animal.impl;
+package com.petshop.core.service.animal.derbyImpl;
 
 import com.petshop.core.domain.animal.Animal;
 import com.petshop.core.service.AbstractDerbyService;
