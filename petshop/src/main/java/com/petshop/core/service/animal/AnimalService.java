@@ -1,12 +1,14 @@
 package com.petshop.core.service.animal;
 
-import com.petshop.core.service.GenericService;
+import com.petshop.core.domain.animal.Animal;
+import com.petshop.core.service.BaseService;
 
 /**
  * 
- * @author user
+ * @since 24-11-2017
+ * @author ozsoy.kerami
  * 
  */
-public interface AnimalService extends GenericService {
+public interface AnimalService extends BaseService<Animal> {
 
 }
