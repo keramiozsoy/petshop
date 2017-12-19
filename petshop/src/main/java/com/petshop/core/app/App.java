@@ -1,12 +1,12 @@
 package com.petshop.core.app;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import org.apache.derby.iapi.services.io.DerbyIOException;
+import com.petshop.core.enums.Enums;
+import com.petshop.core.util.JDBCUtil;
 
 /**
  * 
@@ -15,21 +15,20 @@ import org.apache.derby.iapi.services.io.DerbyIOException;
  */
 public class App {
 	static Connection c = null;
-	static String dbPath = "jdbc:derby:src/main/resources/databases/apacheDerby/pethopDerbyDB;create=true";
+	static final String dbPath = "jdbc:derby:src/main/resources/databases/apacheDerby/pethopDerbyDB;create=true";
 	static String user = "";
 	static String password = "";
 
 	public static void main(String[] args) {
 
 		try {
-			Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
-		} catch (ClassNotFoundException e) {
-			System.out.println("EmbeddedDriver can not be found");
-			e.printStackTrace();
+			c = JDBCUtil.OpenJdbcConnection(Enums.DatabaseDriver.APACHE_DERBY.toValue(), dbPath, user, password);
+		} catch (SQLException e1) {
+			System.out.println("Driver problem");
+			e1.printStackTrace();
 		}
 
 		try {
-			 c = DriverManager.getConnection(dbPath, user, password);
 
 			Statement table = c.createStatement();
 
@@ -40,13 +39,13 @@ public class App {
 					+ " name VARCHAR(50), " //
 					+ " surname VARCHAR(50)" + " ) "); //
 		} catch (SQLException e) {
-			if(e.getSQLState().equals("X0Y32")){
+			if (e.getSQLState().equals("X0Y32")) {
 				System.out.println("Table already createed ");
-			}else{
-				e.printStackTrace();	
+			} else {
+				e.printStackTrace();
 			}
 		}
-		
+
 		try {
 			Statement insert = c.createStatement();
 			insert.executeUpdate(" INSERT INTO animal (name,surname) VALUES ('testName','testSurname') ");
@@ -55,7 +54,6 @@ public class App {
 			e.printStackTrace();
 		}
 
-		
 		try {
 			Statement show = c.createStatement();
 			ResultSet rs = show.executeQuery(" SELECT * FROM animal ");
@@ -68,9 +66,7 @@ public class App {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
 
-		
 	}
 
 }
