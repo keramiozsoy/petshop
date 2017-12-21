@@ -21,7 +21,9 @@ git clone https://github.com/keramiozsoy/petshop.git
 cd petshop/petshop
 ls -l
 src pom.xml
-
+#### if you get errors
+mvn clean
+mvn package
 ```
 ## if you want to use eclipse
 #### how to open this project with eclipse ?
