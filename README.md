@@ -8,6 +8,7 @@ a blueprint for petshop
 # it has used 
 - Apache Derby (Embedded DB https://db.apache.org/derby)
 - Service Layer Design Pattern ( Thank you :sunglasses: http://java-design-patterns.com/patterns/service-layer  )
+- Semantic Versioning   (https://semver.org)
 
 # Development Setup
 ## how to begin everything this project ?
