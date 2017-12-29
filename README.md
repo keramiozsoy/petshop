@@ -6,9 +6,9 @@ a blueprint for petshop
 - Java JDK        1.7.80
 - Eclipse (Kepler) or Netbeans
 # it has used 
-- Apache Derby (Embedded DB https://db.apache.org/derby)
+- Apache Derby (Embedded DB :camel:  https://db.apache.org/derby)
 - Service Layer Design Pattern ( Thank you :sunglasses: http://java-design-patterns.com/patterns/service-layer  )
-- Semantic Versioning   (https://semver.org)
+- Semantic Versioning   ( :ghost: https://semver.org)
 
 # Development Setup
 ## how to begin everything this project ?
