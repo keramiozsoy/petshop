@@ -6,6 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import com.petshop.core.enums.Enums;
+import com.petshop.core.util.FlywayUtil;
 import com.petshop.core.util.JDBCUtil;
 
 /**
@@ -15,36 +16,22 @@ import com.petshop.core.util.JDBCUtil;
  */
 public class App {
 	static Connection c = null;
-	static final String dbPath = "jdbc:derby:src/main/resources/databases/apacheDerby/pethopDerbyDB;create=true";
-	static String user = "";
-	static String password = "";
 
 	public static void main(String[] args) {
 
 		try {
-			c = JDBCUtil.OpenJdbcConnection(Enums.DatabaseDriver.APACHE_DERBY.toValue(), dbPath, user, password);
+			c = JDBCUtil.OpenJdbcConnection(
+					Enums.DatabaseDriver.APACHE_DERBY.toValue(), //
+					Enums.DatabaseInfo.DB_PATH_APACHE_DERBY.toValue().toString(), //
+					Enums.DatabaseInfo.USER.toValue().toString(), //
+					Enums.DatabaseInfo.PASSWORD.toValue().toString());
+			FlywayUtil.initialize();
 		} catch (SQLException e1) {
 			System.out.println("Driver problem");
 			e1.printStackTrace();
 		}
 
-		try {
 
-			Statement table = c.createStatement();
-
-			table.executeUpdate("" //
-					+ " CREATE TABLE animal " //
-					+ " (" //
-					+ " id INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1,INCREMENT BY 1) , " //
-					+ " name VARCHAR(50), " //
-					+ " surname VARCHAR(50)" + " ) "); //
-		} catch (SQLException e) {
-			if (e.getSQLState().equals("X0Y32")) {
-				System.out.println("Table already createed ");
-			} else {
-				e.printStackTrace();
-			}
-		}
 
 		try {
 			Statement insert = c.createStatement();
