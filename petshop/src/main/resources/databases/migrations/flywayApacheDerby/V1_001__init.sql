@@ -1,0 +1,9 @@
+ -- keramiozsoy
+ -- 10-01-2018
+ 
+ CREATE TABLE animal 
+(
+ id INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1,INCREMENT BY 1) , 
+ name VARCHAR(50) 
+)
+					 
