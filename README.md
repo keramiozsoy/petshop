@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/keramiozsoy/petshop.svg?branch=develop)](https://travis-ci.org/keramiozsoy/petshop)
+[![codecov](https://codecov.io/gh/keramiozsoy/petshop/branch/develop/graph/badge.svg)](https://codecov.io/gh/keramiozsoy/petshop)
+
 # petshop
 a blueprint for petshop
 
@@ -10,6 +13,8 @@ a blueprint for petshop
 - Service Layer Design Pattern ( Thank you :sunglasses: http://java-design-patterns.com/patterns/service-layer  )
 - Semantic Versioning   ( :ghost: https://semver.org)
 - Flyway   ( :microscope: https://flywaydb.org )
+- Travis-CI ( :umbrella: https://travis-ci.org - free-edition )
+- Codecov  (:thought_balloon:  https://codecov.io)
 
 # Development Setup
 ## how to begin everything this project ?
