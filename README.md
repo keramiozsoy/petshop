@@ -10,6 +10,8 @@ a blueprint for petshop
 - Service Layer Design Pattern ( Thank you :sunglasses: http://java-design-patterns.com/patterns/service-layer  )
 - Semantic Versioning   ( :ghost: https://semver.org)
 - Flyway   ( :microscope: https://flywaydb.org )
+- Travis-CI ( :umbrella: https://travis-ci.org - free-edition )
+- Codecov  (:thought_balloon:  https://codecov.io)
 
 # Development Setup
 ## how to begin everything this project ?
