@@ -9,6 +9,7 @@ a blueprint for petshop
 - Apache Derby (Embedded DB :floppy_disk: https://db.apache.org/derby)
 - Service Layer Design Pattern ( Thank you :sunglasses: http://java-design-patterns.com/patterns/service-layer  )
 - Semantic Versioning   ( :ghost: https://semver.org)
+- Flyway   ( :microscope: https://flywaydb.org )
 
 # Development Setup
 ## how to begin everything this project ?
