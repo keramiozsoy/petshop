@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/keramiozsoy/petshop.svg?branch=develop)](https://travis-ci.org/keramiozsoy/petshop)
+[![codecov](https://codecov.io/gh/keramiozsoy/petshop/branch/develop/graph/badge.svg)](https://codecov.io/gh/keramiozsoy/petshop)
+
 # petshop
 a blueprint for petshop
 
