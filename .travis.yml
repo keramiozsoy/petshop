@@ -11,3 +11,8 @@ script: pwd && ls -al && cd petshop && mvn clean test-compile test && mvn cobert
 after_success:
   - 'bash <(curl -s https://codecov.io/bash)'
 
+provider: heroku
+api_key: $key_api   # $key_api you should create in heroku.After that, you must paste this variable, Environment Variables section in your project on Travis-CI 
+skip_cleanup: true
+app: githubpetshop
+
