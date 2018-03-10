@@ -6,7 +6,7 @@ a blueprint for petshop
 
 # requirement environments
 - Apache Maven    3.0.5
-- Java JDK        1.7.80 :blush:
+- Java JDK        1.7.80 or above :blush:
 - Eclipse (Kepler) or Netbeans :camel:
 # it has used 
 - Apache Derby (Embedded DB :floppy_disk: https://db.apache.org/derby)
