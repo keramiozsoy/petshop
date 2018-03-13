@@ -6,7 +6,7 @@ cache:
   directories:
     - '$HOME/.m2/repository'
 
-script: pwd && ls -al && cd petshop && mvn clean test-compile test && mvn cobertura:cobertura
+script: pwd && ls -al && cd petshop/petshop && mvn clean test-compile test && mvn cobertura:cobertura
 
 after_success:
   - 'bash <(curl -s https://codecov.io/bash)'
