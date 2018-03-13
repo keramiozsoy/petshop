@@ -12,12 +12,12 @@ after_success:
   - 'bash <(curl -s https://codecov.io/bash)'
 
 
-# heroku not working
-#deploy:
-#  provider: heroku
-#  api_key: $key_api  # $key_api you should create in heroku.After that, you must paste this variable, Environment Variables section in your project on Travis-CI 
-#  skip_cleanup: true
-#  app: githubpetshop
-#  on:
-#    branch: develop
+
+deploy:
+  provider: heroku
+  api_key: $key_api  # $key_api you should create in heroku.After that, you must paste this variable, Environment Variables section in your project on Travis-CI 
+  skip_cleanup: true
+  app: githubpetshop
+  on:
+    branch: develop
 
