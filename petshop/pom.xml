@@ -4,7 +4,7 @@
 	<groupId>com.keramiozsoy.petshop</groupId>
 	<artifactId>petshop</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.5-SNAPSHOT</version>
 	<name>petshop Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
