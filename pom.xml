@@ -1,1 +1,42 @@
 
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.keramiozsoy.petshop</groupId>
+	<artifactId>petshopparent</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.5-SNAPSHOT</version>
+	<name>petshopparent Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+  
+  <modules>
+	  <module>petshop</module>
+  </modules>
+  
+	<build>
+		<finalName>petshopparent</finalName>
+    <plugins>
+          <plugin>
+                 <groupId>org.apache.maven.plugins</groupId> <!-- for Heroku Integration ( procfile ) -->
+                 <artifactId>maven-dependency-plugin</artifactId>
+                 <version>2.4</version>
+                 <executions>
+                     <execution>
+                         <phase>package</phase>
+                         <goals><goal>copy</goal></goals>
+                         <configuration>
+                         <artifactItems>
+                                <artifactItem>
+                                  <groupId>org.eclipse.jetty</groupId>
+                                  <artifactId>jetty-runner</artifactId>
+                                  <version>9.4.9.v20180320</version>
+                                  <destFileName>jetty-runner.jar</destFileName>
+                                </artifactItem>
+                          </artifactItems>
+                         </configuration>
+                      </execution>
+                </executions>
+           </plugin>
+     </plugins>
+	</build>
+</project>
