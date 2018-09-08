@@ -9,7 +9,7 @@
 	<url>http://maven.apache.org</url>
 	
 	<parent>
-	  <groupId>com.keramiozsoy.petshop</groupId>
+	  <groupId>com.keramiozsoy.petshopparent</groupId>
 	  <artifactId>petshopparent</artifactId>
 	  <version>0.0.5-SNAPSHOT</version>
 	</parent>
