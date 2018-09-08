@@ -1,5 +1,12 @@
 [![Build Status](https://travis-ci.org/keramiozsoy/petshop.svg?branch=develop)](https://travis-ci.org/keramiozsoy/petshop)
 [![codecov](https://codecov.io/gh/keramiozsoy/petshop/branch/develop/graph/badge.svg)](https://codecov.io/gh/keramiozsoy/petshop)
+[![GitHub issues](https://img.shields.io/github/issues/keramiozsoy/petshop.svg)](https://github.com/keramiozsoy/petshop/issues)
+[![GitHub license](https://img.shields.io/github/license/keramiozsoy/petshop.svg)](https://github.com/keramiozsoy/petshop/blob/develop/LICENSE)
+
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/keramiozsoy/petshop.svg?style=social)](https://twitter.com/intent/tweet?text=Wooow:&url=https%3A%2F%2Fgithub.com%2Fkeramiozsoy%2Fpetshop)
+
+
+
 
 # petshop
 a blueprint for petshop
