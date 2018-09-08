@@ -19,4 +19,3 @@ deploy:
   app: github-petshop  # $key_api you should get in heroku/account.After that, you must paste this variable, Environment Variables section in your project on Travis-CI 
   on:
     branch: develop
-
