@@ -8,7 +8,12 @@
 	<name>petshop Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	
-	
+	<parent>
+		<groupId>com.keramiozsoy.petshopparent</groupId>
+		<artifactId>petshopparent</artifactId>
+		<packaging>pom</packaging>
+		<version>0.0.5-SNAPSHOT</version>
+	</parent>
 	
 	<dependencies>
 		<dependency>
