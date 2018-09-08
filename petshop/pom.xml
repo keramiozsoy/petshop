@@ -12,6 +12,7 @@
 	  <groupId>com.keramiozsoy.petshopparent</groupId>
 	  <artifactId>petshopparent</artifactId>
 	  <version>0.0.5-SNAPSHOT</version>
+	  <relativePath></relativePath>
 	</parent>
 	
 	
