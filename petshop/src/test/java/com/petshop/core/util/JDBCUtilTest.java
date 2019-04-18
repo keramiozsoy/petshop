@@ -30,6 +30,7 @@ public class JDBCUtilTest extends TestCase {
      */
     public void testOpenJdbcConnection() throws Exception {
         System.out.println(this.getClass().getName() +" --> " +"OpenJdbcConnection");
+        
         Object driver = Enums.DatabaseDriver.APACHE_DERBY.toValue();
         String dbPath = Enums.DatabaseInfo.DB_PATH_APACHE_DERBY.toValue().toString();
         String user = Enums.DatabaseInfo.USER.toValue().toString();
