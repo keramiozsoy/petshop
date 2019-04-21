@@ -41,7 +41,7 @@ ls -l
 src pom.xml
 ```
 
-## if you get errors
+## jar
 ```
 mvn clean
 mvn package
