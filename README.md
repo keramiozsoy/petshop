@@ -33,7 +33,7 @@ https://github-petshop.herokuapp.com
 mvn archetype:generate -DgroupId=com.keramiozsoy.petshop -DartifactId=petshop -Dversion=0.0.1-SNAPSHOT -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
 ```
 
-## local run
+## local running
 ```
 git clone https://github.com/keramiozsoy/petshop.git
 cd petshop/petshop
