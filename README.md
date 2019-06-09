@@ -28,6 +28,7 @@ https://github-petshop.herokuapp.com
 - Codecov  (:thought_balloon:  https://codecov.io)
 
 # Development Setup
+
 ## how to begin everything this project ?
 ```
 mvn archetype:generate -DgroupId=com.keramiozsoy.petshop -DartifactId=petshop -Dversion=0.0.1-SNAPSHOT -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
